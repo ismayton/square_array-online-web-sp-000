@@ -1,10 +1,7 @@
 def square_array(array)
   newArray = [];
-  array.collect do {|num|
-    square = num*num
-    newArray.push(square)
+  array.collect do {|num| num*num}
   end
-  newArray
 end
 
 
