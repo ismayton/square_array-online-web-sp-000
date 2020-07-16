@@ -6,3 +6,6 @@ def square_array(array)
   end
   newArray
 end
+
+def square_array_collect(array)
+  
